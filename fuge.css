@@ -1,0 +1,63 @@
+.oszlop1{
+    width: 150px;
+}
+.oszlop2{
+    width: 850px;
+}
+.nagytabla{
+    margin: 0 auto;
+    width: 1000px;
+}
+.kistabla{
+    margin: 0 auto;
+    width: 900px;
+}
+td{
+    padding: 2px;
+}
+
+body{
+    background-color: #F0F0F0;
+    
+}
+a{
+    color: #747474;
+    text-decoration: none;
+}
+.zold{
+    background-color: #9BCE11;
+}
+h1{
+    text-align: center;
+}
+.jobbra{
+    text-align: right;
+}
+.gyumolcs{
+    vertical-align:  top;
+}
+h2{
+    color: #9BCE11;
+}
+.nagybetus{
+    text-transform: uppercase;
+    text-align: left;
+}
+.kep{
+    width: 500px;
+}
+p{
+    text-align: justify;
+}
+.kozepre{
+    text-align: center;
+}
+.jobbkep{
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+}
+hr{
+    height: 2px;
+    background-color: red;
+}
