@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <style>
+        .fasz{
+            font-family: 'Shadows Into Light', cursive;
+        }
+    </style>
+</head>
+<body>
+ 
+
+
+    <h1 class="fasz">PITAGORASZ TÉTEL SZÁMOLÓ</h1>
+
+    <p>Adj meg legalább két oldalt</p>
+    <form>
+        <p><input type="text" id="a" oninput="szam()"> a. oldal</p>
+        <p><input type="text" id="b" oninput="szam()"> b. oldal</p>
+        <p><input type="text" id="c" oninput="szam()"> c. oldal</p>
+    </form>
+
+    <input type="color">
+
+    <script>
+        function szam() {
+            if (a.value != 0 && b.value != 0) {
+                c.value = Math.sqrt((a.value * a.value) + (b.value * b.value));
+            }
+            if (a.value != 0 && c.value != 0) {
+                b.value = Math.sqrt((a.value * a.value) + (c.value * c.value));
+            }
+        }
+    </script>
+</body>
+</html>
